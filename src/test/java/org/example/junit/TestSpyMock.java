@@ -16,7 +16,6 @@ public class TestSpyMock {
     @Test
     public void test_verify_Mock_behaviour_OK() {
         // Given
-        List<String> list = new ArrayList<>();
         List<String> mockList = mock(List.class);
 
         // When
@@ -24,17 +23,14 @@ public class TestSpyMock {
         // Then
         assertEquals(0, mockList.size());
 
-        doReturn(100).when(mockList).size();
+        doReturn(100).when(mockList).size();  // stubbing
         Assert.assertEquals(100, mockList.size());
     }
 
 
     @Test
-    public void test_verify_Spy_behaviour_KO() {
+    public void test_verify_Mock_behaviour_KO() {
         // Given
-        List<String> list = new ArrayList<>();
-        list.add("one");
-        list.add("two");
         List<String> mockList = mock(List.class);
 
         // When
