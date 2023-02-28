@@ -1,6 +1,7 @@
 package org.example.junit;
 
 import org.junit.Test;
+import org.mockito.Mock;
 import org.mockito.Spy;
 import org.powermock.api.mockito.PowerMockito;
 
@@ -9,12 +10,11 @@ import static org.mockito.Mockito.when;
 
 public class TestDiffBtwnDoReturnAndWhen {
 
-    @Spy
-    private MyClass myClass;
     @Test
     public void testDoReturnWithMockito() {
 
 
+        MyClass myClass = PowerMockito.spy(new MyClass());
         // would work fine
         doReturn("test").when(myClass).anotherMethodInClass();
 
@@ -26,6 +26,7 @@ public class TestDiffBtwnDoReturnAndWhen {
     public void testDoReturnWithPowerMockito() {
 
 
+        MyClass myClass = PowerMockito.spy(new MyClass());
         // would work fine
         PowerMockito.doReturn("test").when(myClass).anotherMethodInClass();
 

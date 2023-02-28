@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b9e52d9-0994-4fa7-b224-2d97662bc56d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/junit/TestStaticMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/junit/TestSpyMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/junit/TestSpyMock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/junit/TestDiffBtwnDoReturnAndWhen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/junit/TestDiffBtwnDoReturnAndWhen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +54,22 @@
       <recent name="org.example.junit" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestDiffBtwnDoReturnAndWhen.testDoReturnWithPowerMockito">
+  <component name="RunManager" selected="JUnit.TestDiffBtwnDoReturnAndWhen">
+    <configuration name="TestDiffBtwnDoReturnAndWhen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="try" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.junit" />
+      <option name="MAIN_CLASS_NAME" value="org.example.junit.TestDiffBtwnDoReturnAndWhen" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestDiffBtwnDoReturnAndWhen.testDoReturn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="try" />
       <extension name="coverage">
@@ -69,6 +81,22 @@
       <option name="PACKAGE_NAME" value="org.example.junit" />
       <option name="MAIN_CLASS_NAME" value="org.example.junit.TestDiffBtwnDoReturnAndWhen" />
       <option name="METHOD_NAME" value="testDoReturn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDiffBtwnDoReturnAndWhen.testDoReturnWithMockito" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="try" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.junit" />
+      <option name="MAIN_CLASS_NAME" value="org.example.junit.TestDiffBtwnDoReturnAndWhen" />
+      <option name="METHOD_NAME" value="testDoReturnWithMockito" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,22 +118,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSpyMock.test_verify_Mock_behaviour_OK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="try" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.junit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.junit" />
-      <option name="MAIN_CLASS_NAME" value="org.example.junit.TestSpyMock" />
-      <option name="METHOD_NAME" value="test_verify_Mock_behaviour_OK" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestSpyMock.test_verify_Spy_behaviour_KO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="try" />
       <extension name="coverage">
@@ -122,28 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStaticMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="try" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.junit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.junit" />
-      <option name="MAIN_CLASS_NAME" value="org.example.junit.TestStaticMethod" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestDiffBtwnDoReturnAndWhen" />
         <item itemvalue="JUnit.TestDiffBtwnDoReturnAndWhen.testDoReturnWithPowerMockito" />
+        <item itemvalue="JUnit.TestDiffBtwnDoReturnAndWhen.testDoReturnWithMockito" />
         <item itemvalue="JUnit.TestDiffBtwnDoReturnAndWhen.testDoReturn" />
         <item itemvalue="JUnit.TestSpyMock.test_verify_Spy_behaviour_KO" />
-        <item itemvalue="JUnit.TestSpyMock.test_verify_Mock_behaviour_OK" />
-        <item itemvalue="JUnit.TestStaticMethod" />
       </list>
     </recent_temporary>
   </component>
