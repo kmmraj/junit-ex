@@ -1,8 +1,6 @@
 package org.example.junit;
 
 import org.junit.Test;
-import org.mockito.Mock;
-import org.mockito.Spy;
 import org.powermock.api.mockito.PowerMockito;
 
 import static org.mockito.Mockito.doReturn;
